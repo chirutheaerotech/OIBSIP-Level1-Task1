@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav class="bar">
+        <h1 class="logo"><img src="./logo.png" width="50px" height="65px"></h1>
+        <ul class="linksnav">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Models</li>
+            <li><a href="#"></a>Services</li>
+            <li class="btn"><a href="#"></a>Contacts</li>
+        </ul>
+        <img src="./menu-g9f0a7cf6f_1280.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="headercontent">
+            <h2>Sheer driving Pleasure and Performance</h2>
+            <div class="tag"> </div>
+            <h1>Expect the Unexpected</h1>
+            <a href="#" class="btn">Explore</a>
+
+        </div>
+    </header>
+    <section class="models">
+        <div class="title">
+            <h1>Our Models</h1>
+            <div class="tag"></div>
+        </div>
+        <div class="row">
+            <div class="colm">
+                <img src="./mateus-jud-ko2Z9hg0200-unsplash.jpg" alt="" width="62%" height="55%">
+                <h4>Urus</h4>
+                <p>UNLOCK ANY ROAD</p>
+                <a href="#" class="btn">Drive Now</a>
+            </div>
+            <div class="colm">
+                <img src="./pablo-martinez-3kelY-WxGwo-unsplash.jpg" alt="" width="65%" height="55%">
+                <h4>Aventador</h4>
+                <p>A Relentless Force</p>
+                <a href="#" class="btn">Drive Now</a>
+            </div>
+        </div>
+    </section>
+    <section class="conquer">
+       
+        <div class="conquer-content">
+            
+            <h1>CONQUER EVERY TERRAIN</h1>
+            <div class="tag"></div>
+            
+        <a href="#" class="btn">Learn more</a>
+        </div>  
+    </section>
+    <section class="release">
+        <div class="row">
+            <div class="colm content-col">
+                <h1>New Releases</h1>
+                <div class="tag"></div>
+                <p>The Lamborghini Revuelto Debuts in SANT'AGATA. Lamborghini Revuelto:The FIRST SUPER SPORTS V12 HYBRID HPEV</p>
+                <a href="#"class="btn" >Step Inside Hybrid</a>
+            </div>
+            <div class="colm image-col">
+                <div class="imagegallery">
+                    <img src="./1.jpg"alt="" width="22%" height="30%">
+                    <img src="./2.jpg"alt="" width="22%" height="30%">
+                    <img src="./3.jpg"alt="" width="22%" height="30%">
+                    <img src="./4.jpg"alt="" width="22%" height="30%">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Copyright © 2023 Automobili Lamborghini S.p.A. a sole shareholder company part of Audi Group.</p>
+        <p>All rights reserved. VAT no. IT 00591801204</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const linksnav = document.querySelector('.linksnav')
+        menuBtn.addEventListener('click', () => {
+            linksnav.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
